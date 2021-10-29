@@ -25,8 +25,6 @@ public class HealthComponent : MonoBehaviour
         {
             Death();
         }
-        
-
     }
 
     protected virtual void HandelTakeDamage()

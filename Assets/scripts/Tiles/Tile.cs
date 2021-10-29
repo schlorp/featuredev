@@ -5,10 +5,12 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     [SerializeField]
-    private bool _isBuildable;
+    public bool _isBuildable;
     private Renderer Rr;
     private Color _DefaultColor;
     public Color HoverColor;
+
+    public bool HasTower { get; set; }
 
 
     private void Start()
